@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1080" viewBox="0 0 900 1080">
+<defs>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L8,3 z" fill="#000000"/></marker>
+</defs>
+<rect width="900" height="1080" fill="#ffffff"/>
+<text x="450.0" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#000000">Final ED Triage Workflow</text>
+<text x="450.0" y="74" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#000000">Refined workflow with decision points, core AI placement, and implementation constraints</text>
+<line x1="265.0" y1="188" x2="265.0" y2="242" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="300" x2="265.0" y2="354" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="412" x2="265.0" y2="466" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="524" x2="265.0" y2="578" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="636" x2="265.0" y2="690" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="748" x2="265.0" y2="802" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="265.0" y1="860" x2="265.0" y2="914" stroke="#000000" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="90" y="130" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Patient arrives</text>
+<rect x="90" y="242" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="266" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Door screen</text>
+<text x="265.0" y="287" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">Decision: Level 1?</text>
+<line x1="440" y1="271.0" x2="535" y2="271.0" stroke="#000000" stroke-width="1.5"/>
+<rect x="535" y="250.0" width="275" height="42" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="672.5" y="275.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">AI candidate: queue wait and deterioration risk</text>
+<rect x="90" y="354" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="378" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Registration</text>
+<text x="265.0" y="399" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">Admin record created</text>
+<rect x="90" y="466" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Vitals captured</text>
+<text x="265.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">Paper card or EHR</text>
+<line x1="440" y1="495.0" x2="535" y2="495.0" stroke="#000000" stroke-width="1.5"/>
+<rect x="535" y="474.0" width="275" height="42" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="672.5" y="499.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">AI candidate: vital-sign anomaly check</text>
+<rect x="90" y="578" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="602" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Triage nurse assessment</text>
+<text x="265.0" y="623" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">CORE AI support: complaint NLP + risk score</text>
+<line x1="440" y1="607.0" x2="535" y2="607.0" stroke="#000000" stroke-width="1.5"/>
+<rect x="535" y="586.0" width="275" height="42" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="672.5" y="611.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">CORE: risk score shown beside CTAS; nurse decides</text>
+<rect x="90" y="690" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="714" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Clinical routing</text>
+<text x="265.0" y="735" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">Immediate / Urgent / Minor Care</text>
+<rect x="90" y="802" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="826" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Physician assessment</text>
+<text x="265.0" y="847" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">CTAS consistency check</text>
+<line x1="440" y1="831.0" x2="535" y2="831.0" stroke="#000000" stroke-width="1.5"/>
+<rect x="535" y="810.0" width="275" height="42" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="672.5" y="835.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">AI candidate: alert if CTAS conflicts with evidence</text>
+<rect x="90" y="914" width="350" height="58" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+<text x="265.0" y="938" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#000000">Disposition</text>
+<text x="265.0" y="959" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">Admit / Observe / Discharge</text>
+<line x1="440" y1="943.0" x2="535" y2="943.0" stroke="#000000" stroke-width="1.5"/>
+<rect x="535" y="922.0" width="275" height="42" fill="#ffffff" stroke="#000000" stroke-width="1.5"/>
+<text x="672.5" y="947.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#000000">AI candidate: post-discharge risk flag</text>
+<text x="450.0" y="1010" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000">Constraints: EHR data lag | nurse cognitive load / alert fatigue | free-text variability</text>
+<text x="450.0" y="1040" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#000000">Final adds: decision split, core tool location, constraints, stakeholder accountability</text>
+</svg>
