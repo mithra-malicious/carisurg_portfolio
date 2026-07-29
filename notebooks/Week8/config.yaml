@@ -1,0 +1,37 @@
+seed: 42
+
+data:
+  raw_path: "data/yaleemmlc_admissionprediction_triage.csv"
+  target: "esi"
+
+# One decision, one model, one frozen set of hyperparameters.
+# Gradient Boosting was carried into Phase 3 per the Week 7 decision
+# journal (docs/week-7-model-choice.md): the only model tested that
+# improved ESI-1 recall over the baseline (0.313 vs 0.250), at
+# negligible inference cost (0.009 ms/pred). Logistic regression is
+# kept pinned alongside it as the documented fallback if SHAP
+# integration proves too costly for IT Governance sign-off.
+final_model: "gradient_boosting"
+fallback_model: "logistic_regression"
+
+models:
+  logistic_regression:
+    max_iter: 1000
+
+  random_forest:
+    n_estimators: 300
+    max_depth: 10
+    min_samples_leaf: 1
+    max_features: "sqrt"
+    class_weight: "balanced"
+
+  gradient_boosting:
+    max_depth: 6
+    learning_rate: 0.1
+    max_iter: 300
+    class_weight: "balanced"
+
+  mlp:
+    hidden_layer_sizes: [64, 32]
+    alpha: 0.001
+    max_iter: 500
