@@ -26,3 +26,9 @@ carisurg-portfolio/
 ├── .gitignore        # Files excluded from version control
 
 └── README.md         # You are here
+
+
+For Week 8: 
+Place `yaleemmlc_admissionprediction_triage.csv` here (see config.yaml -> data.raw_path).
+This directory is git-ignored — do not commit real patient data.
+
